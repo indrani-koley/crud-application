@@ -11,32 +11,32 @@ import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Crud = () => {
-    const empdata = [
-        {
-            id: 1,
-            name: 'Jishu',
-            age: 24,
-            isActive: 1
-        },
-        {
-            id: 2,
-            name: 'Shaan',
-            age: 23,
-            isActive: 1
-        },
-        {
-            id: 3,
-            name: 'Pritam',
-            age: 21,
-            isActive: 0
-        },
-        {
-            id: 4,
-            name: 'Sasank',
-            age: 22,
-            isActive: 0
-        }
-    ]
+    // const empdata = [
+    //     {
+    //         id: 1,
+    //         name: 'Jishu',
+    //         age: 24,
+    //         isActive: 1
+    //     },
+    //     {
+    //         id: 2,
+    //         name: 'Shaan',
+    //         age: 23,
+    //         isActive: 1
+    //     },
+    //     {
+    //         id: 3,
+    //         name: 'Pritam',
+    //         age: 21,
+    //         isActive: 0
+    //     },
+    //     {
+    //         id: 4,
+    //         name: 'Sasank',
+    //         age: 22,
+    //         isActive: 0
+    //     }
+    // ]
 const [data, setData] = useState([]);
 
 const [name, setName] = useState('');
